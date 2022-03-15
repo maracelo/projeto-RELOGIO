@@ -28,10 +28,11 @@ function star(){
     var tim=document.querySelector('#timer')
     var instru=document.querySelector('#instru')
     var degra=document.querySelector('#degradê')
-    var bola=document.querySelector('#bola')
-    
+    /* var bola=document.querySelector('#bola') */
+    var h1=document.querySelector('#eu')
 
-        tim.style.fontSize='180px'
+        tim.style.fontSize='20vh'
+        tim.style.transform='translate(-50%,-54.3%)'
         
         document.body.style.backgound='rgba(0, 0, 0, 0.425)'
 
@@ -39,7 +40,8 @@ function star(){
         degra.classList.toggle('fade')
         stabutton.classList.toggle('fade')
         stobutton.classList.toggle('fade')
-        bola.classList.toggle('fade')     
+       /*  bola.classList.toggle('fade')  */
+        h1.classList.toggle('bola')    
 }
 
 function sto(){
@@ -47,15 +49,19 @@ function sto(){
     var tim=document.querySelector('#timer')
     var instru=document.querySelector('#instru')
     var degra=document.querySelector('#degradê')
-    var bola=document.querySelector('#bola')
+    /* var bola=document.querySelector('#bola') */
+    var h1=document.querySelector('#eu')
         
-        tim.style.fontSize='120px'
+        tim.style.fontSize='10vh'
+        tim.style.transform='translate(-50%,-50%)'
         
         instru.classList.toggle('fade')
         degra.classList.toggle('fade')
         stabutton.classList.toggle('fade')
         stobutton.classList.toggle('fade')
-        bola.classList.toggle('fade')
+        /* bola.classList.toggle('fade') */
+        h1.classList.toggle('bola')
+
 
         clearInterval(interval)
         seg=25
