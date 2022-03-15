@@ -53,7 +53,7 @@ h1.bola{
 #timer{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: clamp(80px,10vw,190px);
+    font-size: 20vh;
     
     position: absolute; 
     top: 50%;

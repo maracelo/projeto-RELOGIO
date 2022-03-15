@@ -31,7 +31,7 @@ function star(){
     /* var bola=document.querySelector('#bola') */
     var h1=document.querySelector('#eu')
 
-        tim.style.fontSize='20vh'
+        tim.style.fontSize='30vh'
         tim.style.transform='translate(-50%,-54.3%)'
         
         document.body.style.backgound='rgba(0, 0, 0, 0.425)'
@@ -52,7 +52,7 @@ function sto(){
     /* var bola=document.querySelector('#bola') */
     var h1=document.querySelector('#eu')
         
-        tim.style.fontSize='10vh'
+        tim.style.fontSize='20vh'
         tim.style.transform='translate(-50%,-50%)'
         
         instru.classList.toggle('fade')
