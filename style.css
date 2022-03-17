@@ -47,7 +47,7 @@ h1{
     transition: 1s ease-in-out;
 }
 
-section>h1{
+#settbar>h1{
     font-size: 2vw;
     color: black;
     padding-top: 17px;
@@ -292,6 +292,9 @@ section>h1{
     }
     #timer{
         font-size: 50pt;
+    }
+    #settbar>h1{
+        font-size: 10pt;
     }
 }
 @media (max-width: 875px) {
