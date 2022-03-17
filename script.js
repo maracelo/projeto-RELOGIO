@@ -33,7 +33,7 @@ function star(){
         tim.style.fontSize='15vw'
         tim.style.transform='translate(-50%,-54.3%)'
         
-        document.body.style.backgound='rgba(0, 0, 0, 0.425)'
+        /* document.body.style.backgound='rgba(0, 0, 0, 0.425)' */
 
         instru.classList.toggle('fade')
         degra.classList.toggle('fade')
