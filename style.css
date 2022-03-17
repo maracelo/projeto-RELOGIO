@@ -305,4 +305,9 @@ h1{
         left: 120px;
         margin-left: -20px;
     }
-} 
+}
+@media (max-width: 400px) {
+    h1{
+        font-size: 25pt;
+    }
+}
