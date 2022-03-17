@@ -252,7 +252,14 @@ h1{
         font-size: 28px;
     }
 }
-
+@media (max-width: 500px) {
+    h1{
+        font-size: 20pt;
+    }
+    #settbar>h1{
+        font-size: 8pt;
+    }
+}
 @media (max-width: 600px){
     #start{
         top: 65%;
@@ -288,13 +295,5 @@ h1{
     .caixa.move{
         left: 120px;
         margin-left: -20px;
-    }
-}
-@media (max-width: 400px) {
-    h1{
-        font-size: 25pt;
-    }
-    #settbar>h1{
-        font-size: 8pt;
     }
 }
